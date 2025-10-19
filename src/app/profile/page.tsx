@@ -1,3 +1,11 @@
-export default function profile(){
-    return <h1>welcome to profile</h1>
+import React from 'react'
+
+const page = () => {
+  return (
+    <div className="w-full h-screen flex justify-center items-center">
+      <h1 className="text-3xl">Profile Page</h1>
+    </div>
+  )
 }
+
+export default page
